@@ -31,6 +31,7 @@ public class Program {
                 ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
             } catch (ChessException | InputMismatchException e) {
                 System.out.println(e.getMessage());
+                System.out.print("tecle enter para continuar");
                 sc.nextLine();
             }
         }
