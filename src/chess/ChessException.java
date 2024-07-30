@@ -1,7 +1,6 @@
 package chess;
 
 import boardgame.BoardException;
-
 import java.io.Serial;
 
 public class ChessException extends BoardException {
